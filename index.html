@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mahir Mansuri | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+        }
+
+        header {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+            opacity: 0.8;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            color: #00ffd5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        section {
+            padding: 70px 15%;
+        }
+
+        .section-title {
+            font-size: 36px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #00ffd5;
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: center;
+            opacity: 0.9;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+        }
+
+        .skill-box {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .skill-box:hover {
+            transform: translateY(-8px);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 25px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .project-card h3 {
+            color: #00ffd5;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.4);
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        @media(max-width: 768px) {
+            section {
+                padding: 50px 8%;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mahir Mansuri</h1>
+    <p>Web Developer | IT Student | Future Entrepreneur</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I am an IT student passionate about web development and software engineering.
+        I love building clean, modern, and user-friendly applications.
+        My goal is to create impactful digital products and start my own IT company.
+    </p>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+        <div class="skill-box">HTML5</div>
+        <div class="skill-box">CSS3</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">React</div>
+        <div class="skill-box">Laravel</div>
+        <div class="skill-box">Python</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <h3>Personal Expense Tracker</h3>
+            <p>A Laravel-based application to manage daily expenses with beautiful UI.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>AI Chatbot</h3>
+            <p>A ChatGPT-like chatbot built using Laravel and JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A modern personal portfolio using HTML, CSS, and animations.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Email: mahirmansuri@example.com</p>
+    <p>Location: India</p>
+</section>
+
+<footer>
+    © 2026 Mahir Mansuri | All Rights Reserved
+</footer>
+
+</body>
+</html>
